@@ -1,6 +1,6 @@
 
-node /^demo*/ {
-  class { "demo":
+node 'demo-VirtualBox' {
+  class { "docker-demo":
      user => "demo"
    }
 }
