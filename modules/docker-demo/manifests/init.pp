@@ -1,7 +1,7 @@
-# Class: docker-demo
+# Class: demo
 #
 # [Remember: No empty lines between comments and class definition]
-class docker-demo ( $user = undef) {
+class demo ( $user = undef) {
   class { 'linux-base':
     user => "${user}",
   }
