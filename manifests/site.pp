@@ -1,6 +1,6 @@
 
-node 'docker-py-demo' {
-  class { "docker-demo":
+node /^demo*/ {
+  class { "demo":
      user => "demo"
    }
 }
