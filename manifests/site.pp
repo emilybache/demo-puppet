@@ -1,5 +1,5 @@
 
-node 'docker-py-demo' {
+node 'demo-VirtualBox' {
   class { "docker-demo":
      user => "demo"
    }
